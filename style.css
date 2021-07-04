@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange-color{
     color: orange;
 }
@@ -39,3 +42,29 @@ h1{
     background-size: au;
     
 }
+.experience-items{
+    box-shadow:10px 10px 40px grey;
+       width: 40%;
+       margin-left: 5%;
+       margin-right: 5%;
+       padding-left: 15px;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#border-color-pro{
+    border-left: 7px solid;
+    border-image:linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+    
+  }
+#border-color-baby{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue, cyan);
+    border-image-slice: 1;
+      }
+      footer p{
+          text-align: center;
+      }
